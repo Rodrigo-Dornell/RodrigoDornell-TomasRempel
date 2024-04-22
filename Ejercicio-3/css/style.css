@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 100px;
+	height: 150px;
+}
+header nav ul {
+	display: flex;
+}
+header nav ul li {
+	padding-right: 10px;
+	list-style: none;
+}
+.div1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f8f8fa;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 7px;
+}
+.div2 h1 {
+	font-size: 80px;
+	font-family: kanit;
+	max-width: 80%;
+	padding: 0 30px;
+}
+.div2 h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 0 30px;
+	line-height: 1.5;
+}
+.div1 .div2 button {
+	background-color: rgba(0, 60, 255, 0.799);
+	padding: 10px 15px;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+.div1 .div2 button a {
+	color: white;
+	text-decoration: none;
+}
+.div3 {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #313131;
+	width: 80%;
+	height: 350px;
+	margin: 40px auto 0;
+	padding: 40px;
+	color: white;
+	border-radius: 7px;
+}
+
+.div3 h1.Servicios {
+	margin-bottom: 20px;
+}
+
+.div3 ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.div3 ul li {
+	flex: 1;
+	list-style: none;
+	border: #f8f8fa solid;
+	border-radius: 7px;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.Servicios {
+	margin: 0 auto;
+}
+footer {
+	background-color: #f2f2f2;
+	height: 100px;
+}
+footer p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+.p1 {
+	margin-top: 20px;
+}
